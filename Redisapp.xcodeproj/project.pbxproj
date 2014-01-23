@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14AD82F41890DCA800834A5A /* dbs-redis_24x24x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 14AD82F31890DCA800834A5A /* dbs-redis_24x24x32.png */; };
+		14AD82F61890DE9B00834A5A /* dbs-redis.icns in Resources */ = {isa = PBXBuildFile; fileRef = 14AD82F51890DE9B00834A5A /* dbs-redis.icns */; };
 		14FD080118907AAC0035CB95 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FD080018907AAC0035CB95 /* Cocoa.framework */; };
 		14FD080318907AAC0035CB95 /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FD080218907AAC0035CB95 /* RubyCocoa.framework */; };
 		14FD080D18907AAC0035CB95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14FD080B18907AAC0035CB95 /* InfoPlist.strings */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14AD82F31890DCA800834A5A /* dbs-redis_24x24x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dbs-redis_24x24x32.png"; sourceTree = "<group>"; };
+		14AD82F51890DE9B00834A5A /* dbs-redis.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "dbs-redis.icns"; sourceTree = "<group>"; };
 		14FD07FD18907AAC0035CB95 /* Redisapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redisapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FD080018907AAC0035CB95 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		14FD080218907AAC0035CB95 /* RubyCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RubyCocoa.framework; path = System/Library/Frameworks/RubyCocoa.framework; sourceTree = SDKROOT; };
@@ -56,7 +60,10 @@
 				14FD07FF18907AAC0035CB95 /* Frameworks */,
 				14FD07FE18907AAC0035CB95 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
+			wrapsLines = 0;
 		};
 		14FD07FE18907AAC0035CB95 /* Products */ = {
 			isa = PBXGroup;
@@ -100,6 +107,8 @@
 		14FD080918907AAC0035CB95 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				14AD82F51890DE9B00834A5A /* dbs-redis.icns */,
+				14AD82F31890DCA800834A5A /* dbs-redis_24x24x32.png */,
 				14FD080A18907AAC0035CB95 /* Redisapp-Info.plist */,
 				14FD080B18907AAC0035CB95 /* InfoPlist.strings */,
 				14FD080E18907AAC0035CB95 /* main.m */,
@@ -167,6 +176,8 @@
 				14FD081C18907AAC0035CB95 /* Images.xcassets in Resources */,
 				14FD081318907AAC0035CB95 /* Credits.rtf in Resources */,
 				14FD081518907AAC0035CB95 /* rb_main.rb in Resources */,
+				14AD82F61890DE9B00834A5A /* dbs-redis.icns in Resources */,
+				14AD82F41890DCA800834A5A /* dbs-redis_24x24x32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +337,7 @@
 				14FD082118907AAC0035CB95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
